@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import ProtoF
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //ProtoF.testFunction()
         // Do any additional setup after loading the view.
     }
 

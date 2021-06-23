@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,26 @@
 		3320F6772682B7C8001809AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3320F6752682B7C8001809AA /* Main.storyboard */; };
 		3320F6792682B7CA001809AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3320F6782682B7CA001809AA /* Assets.xcassets */; };
 		3320F67C2682B7CA001809AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3320F67A2682B7CA001809AA /* LaunchScreen.storyboard */; };
+		3320F68A2682B868001809AA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3320F6862682B868001809AA /* README.md */; };
+		3320F68B2682B868001809AA /* STCGamification.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3320F6872682B868001809AA /* STCGamification.podspec */; };
+		3320F68D2682B868001809AA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3320F6892682B868001809AA /* LICENSE */; };
+		3320F68F2682B8B0001809AA /* ProtoF.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3320F6882682B868001809AA /* ProtoF.xcframework */; };
+		3320F6902682B8B0001809AA /* ProtoF.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3320F6882682B868001809AA /* ProtoF.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3320F6912682B8B0001809AA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3320F6902682B8B0001809AA /* ProtoF.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3320F66C2682B7C8001809AA /* ProtoF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtoF.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +43,10 @@
 		3320F6782682B7CA001809AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3320F67B2682B7CA001809AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3320F67D2682B7CA001809AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3320F6862682B868001809AA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		3320F6872682B868001809AA /* STCGamification.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = STCGamification.podspec; sourceTree = SOURCE_ROOT; };
+		3320F6882682B868001809AA /* ProtoF.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ProtoF.xcframework; sourceTree = SOURCE_ROOT; };
+		3320F6892682B868001809AA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3320F68F2682B8B0001809AA /* ProtoF.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +82,10 @@
 			children = (
 				3320F66F2682B7C8001809AA /* AppDelegate.swift */,
 				3320F6712682B7C8001809AA /* SceneDelegate.swift */,
+				3320F6892682B868001809AA /* LICENSE */,
+				3320F6882682B868001809AA /* ProtoF.xcframework */,
+				3320F6862682B868001809AA /* README.md */,
+				3320F6872682B868001809AA /* STCGamification.podspec */,
 				3320F6732682B7C8001809AA /* ViewController.swift */,
 				3320F6752682B7C8001809AA /* Main.storyboard */,
 				3320F6782682B7CA001809AA /* Assets.xcassets */,
@@ -77,6 +105,7 @@
 				3320F6682682B7C8001809AA /* Sources */,
 				3320F6692682B7C8001809AA /* Frameworks */,
 				3320F66A2682B7C8001809AA /* Resources */,
+				3320F6912682B8B0001809AA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +153,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3320F68D2682B868001809AA /* LICENSE in Resources */,
 				3320F67C2682B7CA001809AA /* LaunchScreen.storyboard in Resources */,
 				3320F6792682B7CA001809AA /* Assets.xcassets in Resources */,
+				3320F68B2682B868001809AA /* STCGamification.podspec in Resources */,
+				3320F68A2682B868001809AA /* README.md in Resources */,
 				3320F6772682B7C8001809AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,15 +319,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PFLFZZ6ZC;
 				INFOPLIST_FILE = ProtoF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SIXD.ProtoF;
+				PRODUCT_BUNDLE_IDENTIFIER = Indosat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,15 +339,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PFLFZZ6ZC;
 				INFOPLIST_FILE = ProtoF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SIXD.ProtoF;
+				PRODUCT_BUNDLE_IDENTIFIER = Indosat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
